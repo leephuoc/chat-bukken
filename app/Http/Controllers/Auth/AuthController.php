@@ -12,7 +12,7 @@ class AuthController extends Controller
 {
     /*
     |--------------------------------------------------------------------------
-    | Registration & Login Controller
+    | Registration & LoginController Controller
     |--------------------------------------------------------------------------
     |
     | This controller handles the registration of new users, as well as the

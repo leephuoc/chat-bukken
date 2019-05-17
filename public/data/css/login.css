@@ -1,0 +1,75 @@
+@charset "UTF-8";
+
+.navbar {
+	min-height: 42px;
+	border-bottom: 1px solid #DDDDDD;
+	margin-bottom: 15px;
+}
+
+.navbar-default {
+	background-color: #F7F6F7;
+}
+
+.loginBox {
+	border: 1px solid #DDDDDD;
+	padding: 10px 20px;
+	margin-bottom: 15px;
+}
+
+.loginBox .control-label {
+	font-size: 16px;
+}
+
+hr.border {
+	margin-top: 30px;
+}
+
+@media(min-width:768px) {
+	.loginBox {
+		width: 640px;
+		margin: 80px auto 40px;
+		padding: 30px 40px;
+	}
+	
+	.loginBox .control-label {
+		font-size: 18px;
+		line-height: 50px;
+	}
+	
+	hr.border {
+		margin-top: 50px;
+	}
+}
+
+.registerBox {
+	border: 1px solid #DDDDDD;
+	padding: 10px 20px;
+	margin-bottom: 15px;
+}
+
+.flow-image {
+	border-top: 1px solid #DDDDDD;
+	border-bottom: 1px solid #DDDDDD;
+	
+	margin-top: 30px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.registerBox .required {
+	font-size: 11px;
+}
+
+@media(min-width:768px) {
+	.registerBox {
+		width: 738px;
+		margin: 30px auto 40px;
+		padding: 30px 18px;
+	}
+	
+	.flow-image {
+		margin-top: 50px;
+		margin-bottom: 30px;
+	}
+}
+

@@ -1,0 +1,38 @@
+/*icon*/
+[class^="icons-"],
+[class*=" icons-"] {
+  display: inline-block;
+  *margin-right: .3em;
+  vertical-align: text-top;
+}
+
+.icons-star {
+  height: 18px;
+  line-height: 18px;
+  width: 20px;
+  background: url(../img/front/icons-star.png) no-repeat scroll;
+}
+.icons-star-check {
+  height: 18px;
+  line-height: 18px;
+  width: 20px;
+  background: url(../img/front/icons-star-check.png) no-repeat scroll;
+}
+.icons-mailbox {
+  height: 16px;
+  line-height: 16px;
+  width: 20px;
+  background: url(../img/letter-icon-normal.png) no-repeat scroll;
+}
+.icons-mailbox-new {
+  height: 26px;
+  line-height: 26px;
+  width: 21px;
+  background: url(../img/letter-icon-red.png) no-repeat scroll;
+}
+.icons-mailbox-open {
+  height: 21px;
+  line-height: 21px;
+  width: 20px;
+  background: url(../img/letter-icon-open.png) no-repeat scroll;
+}
