@@ -4,7 +4,7 @@
 namespace App\Http\Controllers;
 
 
-class ApiLineController
+class ApiLineController extends Controller
 {
     public function callback()
     {
