@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\User;
+use Illuminate\Support\Facades\View;
 
 /**
  * Class LoginController
@@ -38,6 +39,21 @@ class LoginController extends Controller
 
         // Return view
         return view('login/index');
+    }
+
+    /**
+     * Login by LINE
+     *
+     * @param Request $request\
+     *
+     * @return View
+     *
+     * @author Lee Phuoc <phuoclx@nal.vn>
+     */
+    public function loginByLine(Request $request)
+    {
+        // Get callback API LINE ID
+        return view('login/auth_line');
     }
 
 
