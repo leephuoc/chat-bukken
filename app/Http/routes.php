@@ -10,8 +10,8 @@ Route::post('/login','LoginController@index');
 
 Route::get('/home','HomeController@index');
 
-Route::get('/loginByLine', 'LoginController@loginByLine');
-Route::post('/loginByLine', 'LoginController@loginByLine');
+Route::get('/auth', 'ApiLineController@auth');
+Route::post('/auth', 'ApiLineController@auth');
 
-//Route::get('/callback', 'ApiLineController@callback');
+Route::get('/callback', 'ApiLineController@callback');
 Route::post('/callback', 'ApiLineController@callback');

@@ -1858,3 +1858,32 @@ a.flat_button.h40px.submit-articles {
 .overflow-hidden {
 	overflow: hidden !important;
 }
+
+.img-line {
+	margin-left: 10px;
+	background: #00C300;
+	height: 40px;
+	width: 165px;
+	display: block;
+	font-weight: bold;
+	color: #fff;
+}
+
+.img-line:hover {
+	background: #00E000;
+	color: #fff;
+	text-decoration: none;
+}
+
+.img-line img {
+	margin-right: 10px;
+	border-right: 1px solid #00b300;
+}
+
+.img-line.disabled {
+	background: #c6c6c6;
+}
+
+.img-line.disabled img {
+	border-right: 1px solid #b5b5b5;
+}
